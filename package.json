@@ -1,0 +1,37 @@
+{
+  "name": "dnf-api-processor",
+  "version": "1.0.0",
+  "description": "- 던전앤파이터 오픈 API 데이터를 가공하여 재사용 가능한 클래스 형태로 제공하는 도구 모음.\r - 기능 구현 완료 후 MIT 라이선스 적용 예정",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew0416/dnf-api-processor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrew0416/dnf-api-processor/issues"
+  },
+  "homepage": "https://github.com/andrew0416/dnf-api-processor#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.31"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^22.15.23",
+    "@vitest/ui": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}
