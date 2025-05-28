@@ -46,7 +46,7 @@ class Character{
         this.guildName = guildName;
       }
     
-    async update(apiKey: string): Promise<void>{
+    async updateInfo(apiKey: string): Promise<void>{
       try {
         const url = `${BASE_URL}/servers/${this.serverId}/characters/${this.characterId}`;
         const params = {
